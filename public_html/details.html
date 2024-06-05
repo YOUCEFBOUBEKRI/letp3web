@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails de la composante</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Détails de la composante</h1>
+    <div id="componentDetails"></div>
+    <div id="comments"></div>
+    
+    <h2>Ajouter un commentaire</h2>
+    <form id="commentForm">
+        <input type="hidden" id="componentId">
+        <label for="username">Nom :</label>
+        <input type="text" id="username" required>
+        <label for="commentText">Commentaire :</label>
+        <textarea id="commentText" required></textarea>
+        <button type="submit">Soumettre</button>
+    </form>
+</body>
+</html>

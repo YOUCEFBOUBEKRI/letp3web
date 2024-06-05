@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#searchResults p {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+#componentDetails {
+    margin-top: 20px;
+}
+
+#comments {
+    margin-top: 20px;
+}
